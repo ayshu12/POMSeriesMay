@@ -49,7 +49,7 @@ public class ProductInfoPageTest extends BaseTest{
 		actProdMap.forEach((k,v)->System.out.println(k+ " : " +v));
 		softAssert.assertEquals(actProdMap.get("Brand"), "Apple");
 		softAssert.assertEquals(actProdMap.get("price"), "$2,000.00");
-		softAssert.assertEquals(actProdMap.get("name"), "MacBook");
+		softAssert.assertEquals(actProdMap.get("name"), "MacBook Pro");
 		softAssert.assertEquals(actProdMap.get("Product Code"), "Product 18");
 		softAssert.assertAll();
 	}
