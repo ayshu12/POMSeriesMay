@@ -39,7 +39,7 @@ public class ProductInfoPage {
 		Map<String ,String> prodMap=new HashMap<String,String>();
 		String productName=eleUtil.doGetText(productHeadr);
 		prodMap.put("name", productName.trim());
-		System.out.println(productName);
+		System.out.println(productName.trim());
 		getProdMetaData(prodMap);
 		getProdPriceData(prodMap);
 		return prodMap;
