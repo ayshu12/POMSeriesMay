@@ -53,10 +53,10 @@ pipeline
         
         stage('Publish Extent Report'){
             steps{
-                     publishHTML([allowMissing: false,
+                     publishHTML(target:[allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: false, 
-                                  reportDir: '/POMSeries/build',
+                                  reportDir: 'build', 
                                   reportFiles: 'TestExecutionReport.html', 
                                   reportName: 'HTML Extent Report', 
                                   reportTitles: ''])
