@@ -56,7 +56,7 @@ pipeline
                      publishHTML([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: false, 
-                                  reportDir: 'build', 
+                                  reportDir: 'C:\Users\HP\Documents\Java_Naveen_March22\POMSeries\build', 
                                   reportFiles: 'TestExecutionReport.html', 
                                   reportName: 'HTML Extent Report', 
                                   reportTitles: ''])
