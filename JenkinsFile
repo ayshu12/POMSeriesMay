@@ -56,7 +56,7 @@ pipeline
                      publishHTML([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: false, 
-                                  reportDir: [[path: '/POMSeries/build']]
+                                  reportDir: '/POMSeries/build',
                                   reportFiles: 'TestExecutionReport.html', 
                                   reportName: 'HTML Extent Report', 
                                   reportTitles: ''])
